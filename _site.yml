@@ -1,0 +1,9 @@
+name: "RSC"
+navbar:
+  title: "RSC"
+  left:
+    - text: "Introductie"
+      href: index.html
+    - text: "Informatiebrief"
+      href: consent.html
+output_dir: "docs"

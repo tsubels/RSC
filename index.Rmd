@@ -1,0 +1,54 @@
+---
+title: "**Onderzoek naar actieve leefstijlen bij studenten**"
+output: 
+  html_document:
+
+    toc:  false
+    toc_float: true
+    number_sections: false
+---
+
+----
+
+<div class="row" style="padding-top: 40px;">
+<div class="col-sm-6">
+
+### Radboud Universiteit, Nijmegen
+
+----
+  
+Beste student,
+
+<br>
+
+Leuk dat je je hebt ingeschreven bij het Radboud Sportcentrum! Graag vragen we je aandacht voor een onderzoek naar actieve leefstijlen tijdens de overgang naar de universiteit. Dit onderzoek wordt uitgevoerd door de Radboud Universiteit in samenwerking met het Radboud Sportcentrum (RSC). Het onderzoek is onderdeel van het grote onderzoeksproject *TRansition Into Active Living* [(TRIAL)](https://www.ru.nl/activeliving/onderzoek/vm-onderzoek/trial/).        
+
+<br>
+
+Een actieve leefstijl heeft veel voordelen. Helaas zien we dat de overgang naar de universiteit vaak een (blijvend) negatieve invloed heeft op fysieke activiteit. De transitie naar de universiteit gaat gepaard met een nieuwe studieomgeving, vaak een nieuwe woonomgeving, nieuwe verantwoordelijkheden, en een veranderend sociaal netwerk. Met dit onderzoek willen we onze kennis vergroten over hoe en waarom deze veranderingen gepaard gaan met veranderingen in actieve leefstijlen. Deze nieuwe kennis helpt het RSC en andere organisaties om interventies of programma’s te ontwikkelen waarmee een actieve leefstijl na de transitie naar de universiteit kan worden gepromoot.     
+  
+----
+
+</div>
+<div class="col-sm-6">
+
+![](images/active.jpg)
+
+
+<br>
+
+**En jij kunt daar aan bijdragen! Neem je deel aan ons onderzoek? Klik dan de link hieronder:**
+
+<br> 
+
+{SURVEY URL}
+
+<br> 
+
+</a>
+</div>
+
+<br>
+
+Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk studenten meedoen. Om deelnemers te bedanken verloten we **25x een jaarabonnement bij het Radboud Sportcentrum (t.w.v. 123 euro)** en **1x een iPad Pro (t.w.v. 899 euro)**.
+
