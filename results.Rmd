@@ -1,0 +1,38 @@
+---
+title: "**Resultaten**"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+---
+
+----
+
+<br>  
+
+Op deze pagina zullen na afloop van de onderzoeksperiode (ca. 2 jaar) de resultaten worden teruggekoppeld. Bekijk ook het [Open Science Framework (OSF)](https://osf.io/).
+
+
+
+<br>
+
+# Onderzoek I 
+
+**Actieve leefstijlen tijdens de transitie naar de universiteit**
+
+<br>
+
+----
+
+<br>
+
+# Onderzoek II
+
+**De impact van sport apps/online sociale netwerken op sportdeelname**
+
+<br>
+
+----

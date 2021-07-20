@@ -2,7 +2,6 @@
 title: "**Onderzoek naar actieve leefstijlen bij studenten**"
 output: 
   html_document:
-
     toc:  false
     toc_float: true
     number_sections: false

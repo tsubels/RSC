@@ -2,8 +2,14 @@ name: "RSC"
 navbar:
   title: "RSC"
   left:
-    - text: "Introductie"
+    - text: "Onderzoek I: survey"
       href: index.html
-    - text: "Informatiebrief"
+    - text: "Informatiebrief I"
       href: consent.html
+    - text: "Onderzoek II: sport apps"
+      href: app.html
+    - text: "Informatiebrief II"
+      href: consent2.html
+    - text: "Resultaten"
+      href: results.html
 output_dir: "docs"
