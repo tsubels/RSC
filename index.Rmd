@@ -82,6 +82,6 @@ Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk stu
 Bekijk het [informatieformulier](https://robfranken.github.io/RSC/consent.html) voor meer informatie over het onderzoek, alsmede de voorwaarden.
 
 
-Benieuwd naar de uiteindelijke resultaten? Na afloop van het onderzoek delen we de resultaten op deze website, en op het [Open Science Framework (OSF)](https://osf.io/).
+Benieuwd naar de uiteindelijke resultaten? Na afloop van het onderzoek delen we de resultaten op deze [website](https://robfranken.github.io/RSC/results.html), en op het [Open Science Framework (OSF)](https://osf.io/).
 
 
