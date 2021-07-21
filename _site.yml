@@ -8,8 +8,9 @@ navbar:
       href: consent.html
     - text: "Onderzoek II: sport apps"
       href: app.html
-    - text: "Informatiebrief II"
-      href: consent2.html
+      menu:
+        - text: "Informatiebrief II"
+          href: consent2.html
     - text: "Resultaten"
       href: results.html
 output_dir: "docs"

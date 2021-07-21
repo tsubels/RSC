@@ -50,6 +50,45 @@ Graag leggen we je een aantal online vragenlijsten voor. We zijn geïnteresseerd
 
 Klik de link hieronder om deel te nemen:
 
+<!---we should move this to a css file and include it
+
+https://www.w3schools.com/csS/css3_buttons.asp
+
+-->
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button1 {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+</style>
+
+
+<button class="button button1" type="submit" formaction="https://www.w3docs.com">  Shadow Button</button>
+<button class="button button2" type="submit" formaction="https://www.w3docs.com" >Shadow on Hover</button>
+
+<a href="https://www.w3docs.com/" class="button button2">Start de vragenlijst</a>
+
+
+
+
 <br> 
 
 <font size = "5"> **[Start de vragenlijst](https://cdn.history.com/sites/2/2018/04/AP_9510230460-E.jpeg)**</font>
