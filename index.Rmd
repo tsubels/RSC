@@ -52,7 +52,7 @@ Klik de link hieronder om deel te nemen:
 
 <br> 
 
-**[Start de vragenlijst](https://cdn.history.com/sites/2/2018/04/AP_9510230460-E.jpeg)**
+<font size = "5"> **[Start de vragenlijst](https://cdn.history.com/sites/2/2018/04/AP_9510230460-E.jpeg)**</font>
 
 <br>
 
@@ -70,18 +70,18 @@ Klik de link hieronder om deel te nemen:
 
 Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk studenten meedoen. Om deelnemers te bedanken verloten we:
 
-#### - **1x een iPad Pro (t.w.v. 899 euro)**
+#### - <font size ="4" color="red"> **1x een iPad Pro (t.w.v. 899 euro)** </font>
 
-#### - **25x een jaarabonnement bij het Radboud Sportcentrum (t.w.v. 123 euro)** 
+#### - <font size ="4" color="red"> **25x een jaarabonnement bij het Radboud Sportcentrum (t.w.v. 123 euro)** </font>
 
 <br>
 
 
 ## Meer info
 
-Bekijk het [informatieformulier](https://robfranken.github.io/RSC/consent.html) voor meer informatie over het onderzoek, alsmede de voorwaarden.
+<p> Bekijk het <b>[informatieformulier](https://robfranken.github.io/RSC/consent2.html)</b> voor meer informatie over het onderzoek, alsmede de voorwaarden.
 
 
-Benieuwd naar de uiteindelijke resultaten? Na afloop van het onderzoek delen we de resultaten op deze [website](https://robfranken.github.io/RSC/results.html), en op het [Open Science Framework (OSF)](https://osf.io/).
+Benieuwd naar de uiteindelijke resultaten? Na afloop van het onderzoek delen we de resultaten op [deze website](https://robfranken.github.io/RSC/results.html), en op het <b>[Open Science Framework (OSF)](https://osf.io/)</b> </p>.
 
 
