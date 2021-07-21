@@ -7,8 +7,9 @@ navbar:
     - text: "Informatiebrief I"
       href: consent.html
     - text: "Onderzoek II: sport apps"
-      href: app.html
       menu:
+        - text: "bladiebla"  
+          href: app.html
         - text: "Informatiebrief II"
           href: consent2.html
     - text: "Resultaten"
