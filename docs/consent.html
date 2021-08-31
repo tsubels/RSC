@@ -13,25 +13,12 @@
 
 <title>Informatiebrief</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<style>h1 {font-size: 34px;}
-       h1.title {font-size: 38px;}
-       h2 {font-size: 30px;}
-       h3 {font-size: 24px;}
-       h4 {font-size: 18px;}
-       h5 {font-size: 16px;}
-       h6 {font-size: 12px;}
-       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
-       pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -46,6 +33,11 @@
     </style>
 
 <style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -58,6 +50,32 @@ if (window.hljs) {
 
 
 
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
 
 
 
@@ -68,6 +86,10 @@ if (window.hljs) {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -84,13 +106,40 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
-pre code {
-  padding: 0;
-}
 </style>
 
 
 <style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
 .dropdown-submenu {
   position: relative;
 }
@@ -118,7 +167,7 @@ pre code {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
+  border-left-color: #ffffff;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -130,7 +179,7 @@ pre code {
 }
 </style>
 
-<script type="text/javascript">
+<script>
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -141,23 +190,10 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.tab('show');
+  menuAnchor.parent().addClass('active');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
 });
 </script>
 
@@ -169,6 +205,7 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
+  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -221,69 +258,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -291,16 +265,6 @@ div.tocify {
 
 
 <div class="container-fluid main-container">
-
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
 
 
 
@@ -318,25 +282,10 @@ div.tocify {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Onderzoek I: survey</a>
+  <a href="index.html">Uitnodiging</a>
 </li>
 <li>
-  <a href="consent.html">Informatiebrief I</a>
-</li>
-<li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    Onderzoek II: sport apps
-     
-    <span class="caret"></span>
-  </a>
-  <ul class="dropdown-menu" role="menu">
-    <li>
-      <a href="app.html">bladiebla</a>
-    </li>
-    <li>
-      <a href="consent2.html">Informatiebrief II</a>
-    </li>
-  </ul>
+  <a href="consent.html">Informatiebrief</a>
 </li>
 <li>
   <a href="results.html">Resultaten</a>
@@ -349,7 +298,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div id="header">
+<div class="fluid-row" id="header">
 
 
 
@@ -359,8 +308,8 @@ div.tocify {
 
 
 <p><br></p>
-<div id="voor-deelname-aan-het-wetenschappelijke-onderzoek-actieve-leefstijlen-onder-studenten" class="section level2">
-<h2>voor deelname aan het wetenschappelijke onderzoek: <em>Actieve leefstijlen onder studenten</em></h2>
+<div id="voor-deelname-aan-het-wetenschappelijke-onderzoek-sporten-en-vriendschappen" class="section level2">
+<h2>voor deelname aan het wetenschappelijke onderzoek: <em>Sporten en vriendschappen</em></h2>
 <hr />
 <p><br></p>
 </div>
@@ -371,31 +320,25 @@ div.tocify {
 </div>
 <div id="b.-het-onderzoek" class="section level1">
 <h1><strong>1b. Het onderzoek</strong></h1>
-<p>Een actieve leefstijl heeft veel voordelen. Helaas zien we dat de overgang naar de universiteit vaak een (blijvend) negatieve invloed heeft op fysieke activiteit. De transitie naar de universiteit gaat gepaard met een nieuwe studieomgeving, vaak een nieuwe woonomgeving, nieuwe verantwoordelijkheden, en een veranderend sociaal netwerk. Met ons onderzoek willen de kennis vergroten over hoe en waarom deze veranderingen gepaard gaan met veranderingen in sportdeelname.</p>
-<p>Jij start dit jaar met een studie aan de Radboud Universiteit en je hebt je ingeschreven bij het sportcentrum. We willen je over de tijd enkele online vragenlijsten voorleggen. Daarin zijn we voornamelijk geïnteresseerd in (1) je sport-en-beweeg gedrag, zowel voor als na de overgang naar de universiteit, en (2) je sociale netwerk, alsmede veranderingen daarin over de tijd (bijv., wie zijn de mensen met wie je sport, je belangrijke studiegenoten, en belangrijk(st)e vrienden?).</p>
-<p>We willen je in het begin van het jaar (in september) een basisvragenlijst voorleggen waarin we belangrijke achtergrondinformatie verzamelen. We nemen je terug naar de tijd voor de universiteit, en vragen je naar je sportdeelname in die tijd. Bijvoorbeeld: Sportte je tijdens de middelbare school, en zo ja, hoe vaak, en in welk verband (bijvoorbeeld als lid van een club)? Verder zijn we benieuwd naar belangrijke veranderingen tijdens je overgang naar de universiteit, bijvoorbeeld: Ben je verhuisd, en zo ja, wat is je huidige woonsituatie? Een aantal weken daarna, willen we je nogmaals een online vragenlijst voorleggen waarin we ingaan op je sociale netwerk. We vragen je wie de belangrijkste mensen zijn met wie je belangrijke zaken bespreekt, met wie je studeert, afspreekt, en samen sport. We willen je nogmaals een soortgelijke vragenlijst voorleggen rond februari en juli 2022, met als doel om te kijken in hoeverre deze netwerken aan verandering onderhevig zijn. Als je daarvoor toestemming geeft, zouden we in het collegejaar 2022-2013 nogmaals drie korte vergelijkbare vragenlijsten willen voorleggen.</p>
-<p>We houden je graag op de hoogte van ons onderzoek. Voor meer informatie, alsmede de uiteindelijke resultaten, zie onze Open Science Framework (OSF) pagina: <a href="https://osf.io/">(link)</a>.</p>
+<p>Een actieve leefstijl heeft veel voordelen. Helaas zien we dat de overgang naar het hoger onderwijs vaak een (blijvend) negatieve invloed heeft op fysieke activiteit. De transitie naar de het hoger onderwijs gaat gepaard met een nieuwe studieomgeving, vaak een nieuwe woonomgeving, nieuwe verantwoordelijkheden, en een veranderend sociaal netwerk. Met ons onderzoek willen de kennis vergroten over hoe en waarom deze veranderingen gepaard gaan met veranderingen in sportdeelname.</p>
+<p>Jij start dit jaar met een studie aan de Radboud Universiteit (RU) of Hogeschool van Arnhem en Nijmegen (HAN) en je hebt je ingeschreven bij het sportcentrum. We willen je over de tijd enkele online vragenlijsten voorleggen. Daarin zijn we voornamelijk geïnteresseerd in (1) verschillende leefdomeinen (school, werk, vrije tijd, uitgaansleven, sport) en (2) je sociale netwerken (vrienden, studiegenoten, sportpartners), zowel voor als na de overgang naar het hoger onderwijs.</p>
+<p>We willen je gedurende het collegejaar 3 vragenlijsten voorleggen (in september, februari en juli). Als je daarvoor toestemming geeft, zouden we in het collegejaar 2022-2013 nogmaals drie vergelijkbare vragenlijsten willen voorleggen.</p>
 <p>Dit onderzoek is onafhankelijk getoetst door de Ethiek Commissie Sociale Wetenschappen (ECSW) van de Radboud Universiteit, en er is formeel geen bezwaar tegen dit onderzoek.</p>
 <p><br></p>
 </div>
 <div id="a.-gebruik-van-je-persoonsgegevens" class="section level1">
 <h1><strong>2a. Gebruik van je persoonsgegevens</strong></h1>
-<p>Voor het huidige onderzoek is het nodig om de over jouw verzamelde gegevens door het Radboud Sport Centrum (RSC) te gebruiken. Het gaat daarbij om het aantal ticketuren, cursussen en fitnessbezoeken. Verder is het nodig dat je persoonsgegevens worden verzameld en gebruikt. Het gaat om je e-mailadres en je studenten- (S-) nummer. Deze gegevens worden gebruikt om jouw vragenlijstgegevens te koppelen aan de RSC-gegevens, en om je te kunnen benaderen voor verdere vragenlijsten tijdens dit onderzoek. In het toestemmingsformulier word je gevraagd om toestemming te geven voor het verzamelen, gebruiken en bewaren van bovengenoemde gegevens. Als je hier niet mee instemt, kun je niet deelnemen aan het onderzoek.</p>
+<p>Voor het huidige onderzoek is het nodig om de over jouw verzamelde gegevens door het Radboud Sport Centrum (RSC) te gebruiken. Het gaat daarbij om het aantal ticketuren, cursussen en fitnessbezoeken. Verder is het nodig dat je persoonsgegevens worden verzameld en gebruikt. Het gaat om je voor- en achternaam, en je e-mailadres. Deze gegevens worden gebruikt om jouw vragenlijstgegevens te koppelen aan de RSC-gegevens, en om je te kunnen benaderen voor verdere vragenlijsten tijdens dit onderzoek. In het toestemmingsformulier word je gevraagd om toestemming te geven voor het verzamelen, gebruiken en bewaren van bovengenoemde gegevens. Als je hier niet mee instemt, kun je niet deelnemen aan het onderzoek.</p>
 <p><br></p>
 </div>
 <div id="b.-vertrouwelijkheid-van-je-gegevens-en-gegevensverwerking" class="section level1">
 <h1><strong>2b. Vertrouwelijkheid van je gegevens en gegevensverwerking</strong></h1>
-<p>De informatie die je verstrekt ten behoeve van het onderzoek wordt zorgvuldig behandeld en is alleen toegankelijk voor de onderzoeksleiders. Persoonsgegevens die wij tijdens het onderzoek over je verzamelen, blijven vertrouwelijk. Om je privacy te waarborgen slaan we je persoonsgegevens gecodeerd/gepseudonimiseerd op. Dat betekent dat je naam en andere gegevens die jou direct kunnen identificeren apart van de onderzoeksgegevens worden bewaard. Alleen middels een code of proefpersoonnummer is te achterhalen welke onderzoeksgegevens bij welke persoon horen. De link tussen gegevens die jou direct kunnen identificeren en de overige onderzoeksgegevens wordt opgeslagen in een geëncrypt sleutelbestand. Alleen de onderzoeksleiders hebben toegang tot deze informatie. Ook in rapporten en publicaties over het onderzoek worden alleen je geanonimiseerde onderzoeksgegevens vermeld.</p>
+<p>De informatie die je verstrekt ten behoeve van het onderzoek wordt zorgvuldig behandeld en is alleen toegankelijk voor de onderzoeksleiders. Persoonsgegevens die wij tijdens het onderzoek over je verzamelen, blijven vertrouwelijk. Om je privacy te waarborgen slaan we je persoonsgegevens gecodeerd/gepseudonimiseerd op. Dat betekent dat je naam en andere gegevens die jou direct kunnen identificeren apart van de onderzoeksgegevens worden bewaard. Alleen middels een code of proefpersoonnummer is te achterhalen welke onderzoeksgegevens bij welke persoon horen. De link tussen gegevens die jou direct kunnen identificeren en de overige onderzoeksgegevens wordt opgeslagen in een geëncrypt sleutelbestand. Alleen de onderzoeksleiders hebben toegang tot deze informatie. In rapporten en publicaties over het onderzoek worden alleen je geanonimiseerde onderzoeksgegevens vermeld.</p>
 <p><br></p>
 </div>
 <div id="c.-bewaartermijn-van-je-gegevens" class="section level1">
 <h1><strong>2c. Bewaartermijn van je gegevens</strong></h1>
-<p>Het door jou ondertekende toestemmingsformulier wordt gedurende 2 jaar na afronding van het onderzoek bewaard. Je (beschermde) persoons-/onderzoeksgegevens worden gedurende de loop van het onderzoek (2 jaar) bewaard. Je kunt te allen tijde, gedurende de looptermijn van het onderzoek, je toestemming om persoonlijke data te verwerken, intrekken, zonder opgaaf van redenen. Neem hiervoor contact op met de onderzoeksleiders (<a href="mailto:rob.franken@ru.nl" class="email">rob.franken@ru.nl</a>). Dan zullen we de gegevens die je reeds hebt verstrekt verwijderen.</p>
-<p><br></p>
-</div>
-<div id="c.-delen-van-je-gegevens" class="section level1">
-<h1><strong>2c. Delen van je gegevens</strong></h1>
-<p>Vanwege het belang van controle, hergebruik en/of replicatie van onderzoeksresultaten worden onderzoeksgegevens (inclusief eventuele anonieme persoonsgegevens) in toenemende mate gedeeld met of openbaar gemaakt voor andere onderzoekers. Voorafgaand aan deze vorm van delen worden jouw gegevens geanonimiseerd. Dit betekent dat je niet (meer) te identificeren bent op basis van de gegevens. Een geanonimiseerde versie van de gegevens uit dit onderzoek zal na 2 jaar openbaar gemaakt worden via <a href="https://easy.dans.knaw.nl/ui/home">DANS EASY</a>. Indien je niet wenst dat jouw geanonimiseerde gegevens gedeeld worden, kun je maximaal 1 maand na afronding van het onderzoek verzoeken jouw gegevens te laten verwijderen. Nadat we een geanonimiseerde versie van de gegevens uit dit onderzoek openbaar hebben gemaakt, zullen we al je persoonlijke gegevens die tot jouw identiteit kunnen leiden definitief verwijderen. Nadat de anonieme dataset openbaar is gemaakt, is het niet meer mogelijk om data te verwijderen, aangezien deze alleen nog anoniem bewaard blijven. Wij weten dan dus niet meer welke onderzoeksgegevens bij jou horen.</p>
+<p>Na iedere dataverzamelingsronde wordt een geanonimiseerde versie van de gegevens uit dit onderzoek gedeponeerd. Dit betekent dat je niet (meer) te identificeren bent op basis van je persoonlijke gegevens. Je kunt op elk moment je toestemming om benaderd te worden intrekken, of verzoeken om je persoonlijke data te laten verwijderen, zonder opgaaf van redenen. Neem hiervoor contact op met de onderzoeksleiders (<a href="mailto:rob.franken@ru.nl" class="email">rob.franken@ru.nl</a>). Dan zullen we de gegevens die je reeds hebt verstrekt verwijderen. Echter, nadat een geanonimiseerde dataset gedeponeerd is, is het niet meer mogelijk om data te verwijderen, aangezien deze alleen nog anoniem bewaard blijft. Wij weten dan dus niet meer welke onderzoeksgegevens bij jou horen. De geanonimiseerde gegevens uit dit onderzoek zullen openbaar worden gemaakt via <a href="https://easy.dans.knaw.nl/ui/home">DANS EASY</a>.</p>
 <p><br></p>
 </div>
 <div id="toekomstig-onderzoek" class="section level1">
@@ -410,7 +353,7 @@ div.tocify {
 </div>
 <div id="vergoeding-of-opbrengst" class="section level1">
 <h1><strong>5. Vergoeding of opbrengst</strong></h1>
-<p>Je deelname aan dit onderzoek wordt erg op prijs gesteld. De kennis die we vergaren op basis van jouw deelname helpt het Radboud Sportcentrum en andere organisaties om interventies of programma’s te ontwikkelen waarmee een actieve leefstijl na de overgang naar de universiteit kan worden gepromoot. Om deelnemers te bedanken, verloten we 1x een iPad Pro (t.w.v. €899,-) en 25x een jaarabonnement bij het Radboud Sportcentrum (t.w.v. €123,-). De loterij is na afloop van het collegejaar (augustus 2022). Het aantal online vragenlijsten dat je invult staat gelijk aan het aantal keer dat je naam voorkomt in de loterij. Met andere woorden, je win-kans wordt vergroot door vaker vragenlijsten in te vullen.</p>
+<p>Je deelname aan dit onderzoek wordt erg op prijs gesteld. De kennis die we vergaren op basis van jouw deelname helpt het Radboud Sportcentrum en andere organisaties om interventies of programma’s te ontwikkelen waarmee een actieve leefstijl na de overgang naar de universiteit kan worden gepromoot. Om deelnemers te bedanken, verloten we 1x een iPad Pro (t.w.v. €899,-) en 25x een jaarabonnement bij het Radboud Sportcentrum (t.w.v. €123,-). De loterij is na afloop van het collegejaar (augustus 2022 en 2023). Het aantal online vragenlijsten dat je invult staat gelijk aan het aantal keer dat je naam voorkomt in de loterij. Met andere woorden, je win-kans wordt vergroot door vaker vragenlijsten in te vullen.</p>
 <p><br></p>
 </div>
 <div id="contactinformatie" class="section level1">
@@ -432,40 +375,37 @@ div.tocify {
 </div>
 <div id="toestemmingsverklaring" class="section level1">
 <h1><strong>TOESTEMMINGSVERKLARING</strong></h1>
-<p>voor deelname aan het wetenschappelijke onderzoek: <em>Actieve leefstijlen onder studenten</em></p>
-<p><strong>Ik bevestig dat</strong>:</p>
+<p>voor deelname aan het wetenschappelijke onderzoek: <em>Sporten en Vriendschappen</em></p>
+<p>Door op <em>“IK GA AKKOORD”</em> te klikken:</p>
+<p><strong>Bevestig je dat …</strong></p>
 <ul>
-<li><p>ik schriftelijk naar tevredenheid over het onderzoek geïnformeerd ben;</p></li>
-<li><p>ik de schriftelijke informatie goed heb gelezen;</p></li>
-<li><p>ik in de gelegenheid ben gesteld om vragen over het onderzoek te stellen;</p></li>
-<li><p>mijn eventuele vragen naar tevredenheid zijn beantwoord;</p></li>
-<li><p>ik goed over deelname aan het onderzoek heb kunnen nadenken;</p></li>
+<li><p>je schriftelijk naar tevredenheid over het onderzoek geïnformeerd bent;</p></li>
+<li><p>je de schriftelijke informatie goed hebt gelezen;</p></li>
+<li><p>je in de gelegenheid bent gesteld om vragen over het onderzoek te stellen;</p></li>
+<li><p>je eventuele vragen naar tevredenheid zijn beantwoord;</p></li>
+<li><p>je goed over deelname aan het onderzoek hebt kunnen nadenken;</p></li>
 <li><p>ik uit vrije wil deelneem aan het onderzoek.</p></li>
 </ul>
-<p><strong>Ik begrijp dat</strong>:</p>
+<p><strong>Begrijp je dat …</strong></p>
 <ul>
-<li><p>ik het recht heb om mijn toestemming op ieder moment weer in te trekken zonder opgave van redenen en zonder dat dit nadelige gevolgen voor mij heeft, door contact op te nemen met Rob Franken via <a href="mailto:rob.franken@ru.nl" class="email">rob.franken@ru.nl</a>;</p></li>
-<li><p>ik het recht heb op vernietiging van mijn onderzoeksgegevens tot 1 maand na afronding van het onderzoek;</p></li>
-<li><p>ik het recht heb om mijn toestemming voor de (verdere) verwerking van mijn persoonsgegevens in te trekken; mijn persoonsgegevens worden verwerkt volgens de geldende Europese privacyregelgeving;</p></li>
-<li><p>mijn persoonsgegevens worden verwerkt volgens de <a href="https://www.ru.nl/vaste-onderdelen/privacyverklaring-radboud-universiteit">privacyverklaring</a> van de Radboud Universiteit ;</p></li>
+<li><p>je het recht heb om je toestemming op ieder moment weer in te trekken zonder opgave van redenen en zonder dat dit nadelige gevolgen heeft, door contact op te nemen met Rob Franken via <a href="mailto:rob.franken@ru.nl" class="email">rob.franken@ru.nl</a>;</p></li>
+<li><p>je het recht hebt op vernietiging van jouw onderzoeksgegevens, totdat een geanonimiseerde versie van de gegevens openbaar is gemaakt;</p></li>
+<li><p>je het recht heb om je toestemming voor het gebruik van persoonsgegevens, welke uitsluitend voor administratieve doelen worden gebruikt, in te trekken; je persoonsgegevens worden verwerkt volgens de geldende Europese privacyregelgeving;</p></li>
+<li><p>je persoonsgegevens worden verwerkt volgens de <a href="https://www.ru.nl/vaste-onderdelen/privacyverklaring-radboud-universiteit">privacyverklaring</a> van de Radboud Universiteit ;</p></li>
 </ul>
-<p><strong>Ik stem in dat</strong>:</p>
+<p><strong>Stem je in dat …</strong></p>
 <ul>
-<li><p>mijn persoons- en/of onderzoeksgegevens binnen dit onderzoek voor wetenschappelijke doelen worden verkregen en gedurende 2 jaar beschikbaar zullen zijn voor controle, hergebruik en replicatie;</p></li>
-<li><p>het ondertekende toestemmingsformulier met mijn persoonsgegevens gedurende 2 jaar wordt bewaard;</p></li>
-<li><p>mijn persoonsgegevens welke uitsluitend voor administratieve doelen worden verkregen tot maximaal 1 maand na afronding van het onderzoek worden bewaard. Administratieve doelen houden onder meer in: om je te kunnen uitnodigen voor vragenlijst tijdens dit onderzoek;</p></li>
-<li><p>voor de controle van het onderzoek toezichthoudende autoriteiten mijn persoons- en onderzoeksgegevens kunnen inzien.</p></li>
+<li><p>je persoonsgegevens (voor- en achternaam, e-mailadres) uitsluitend worden verkregen voor administratieve doelen. Administratieve doelen houden in: je uitnodigen voor vragenlijst tijdens dit onderzoek, je onderzoeksgegevens koppelen aan de informatie die over jou verzameld is door het RSC;</p></li>
+<li><p>je onderzoeksgegevens binnen dit onderzoek worden verkregen voor wetenschappelijke doelen en dat er een geanonimiseerde versie van deze gegevens openbaar zal worden gemaakt.</p></li>
 </ul>
-<p><strong>Daarnaast geef ik ook toestemming</strong>:</p>
+<p><strong>Geef je toestemming …</strong></p>
 <ul>
-<li>voor het verwerken van de volgende (bijzondere) persoonsgegevens over mij: De door het Radboud Sportcentrum (RSC) verzamelde data, over het aantal fitnessbezoeken, ticketuren, en cursussen.</li>
+<li>voor het verwerken van de over jou verzamelede informatie door het Radboud Sportcentrum (RSC), over het aantal fitnessbezoeken, ticketuren, en cursussen.</li>
 </ul>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
@@ -491,39 +431,13 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open');
+    $(this).parent().toggleClass('nav-tabs-open')
   });
 });
 </script>
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
