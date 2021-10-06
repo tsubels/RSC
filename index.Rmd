@@ -20,7 +20,7 @@ Beste student,
 
 <br>
 
-Leuk dat je je hebt ingeschreven bij het Radboud Sportcentrum! Graag vragen we je aandacht voor een onderzoek naar actieve leefstijlen tijdens de overgang naar de universiteit. Dit onderzoek wordt uitgevoerd door de Radboud Universiteit in samenwerking met het Radboud Sportcentrum (RSC). Het onderzoek is onderdeel van het grote onderzoeksproject *TRansition Into Active Living* [(TRIAL)](https://www.ru.nl/activeliving/onderzoek/vm-onderzoek/trial/).        
+Leuk dat je je hebt ingeschreven bij het Radboud Sportcentrum! Graag vragen we je aandacht voor een onderzoek naar actieve leefstijlen tijdens de overgang naar de universiteit. Dit onderzoek wordt uitgevoerd door de Radboud Universiteit in samenwerking met het Radboud Sportcentrum (RSC). Het onderzoek is onderdeel van het grote onderzoeksproject *TRansition Into Active Living* <a href="https://www.ru.nl/activeliving/onderzoek/vm-onderzoek/trial/" target="_blank">(TRIAL)</a>.
 
 <br>
 
@@ -81,10 +81,11 @@ https://www.w3schools.com/csS/css3_buttons.asp
 </style>
 
 
-<a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/755991?lang=nl" class="button button2">Start de vragenlijst</a>
+<a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/755991?lang=nl" target="_blank" class="button button2">Start de vragenlijst</a>
 
 
 
+<br>
 
 <br>
 
@@ -109,7 +110,9 @@ Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk stu
 
 ## Meer info
 
-<p> Bekijk het <b>[informatieformulier](https://robfranken.github.io/RSC/consent.html)</b> voor meer informatie over het onderzoek.
+<p> Bekijk het <a href="https://robfranken.github.io/RSC/consent.html" target="_blank"><b>informatieformulier</b></a> voor meer informatie over het onderzoek.
+
+
 
 
 
