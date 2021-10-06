@@ -4,8 +4,12 @@ navbar:
   left:
     - text: "Uitnodiging"
       href: index.html
-    - text: "Informatiebrief"
-      href: consent.html
-    - text: "Resultaten"
-      href: results.html
+    - text: "Informatie"
+      menu:
+      - text: "Informatiebrief"
+      - href: consent.html
+      - text: "Toestemmingsformulier"
+      - href: form.html
 output_dir: "docs"
+
+

@@ -1,8 +1,8 @@
 ---
-title: "**Informatiebrief**"
+title: "**Informatie2**"
 output: 
   html_document:
-    toc: true
+    toc: false
     toc_float: true
     collapsed: false
     number_sections: false

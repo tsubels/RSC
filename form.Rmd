@@ -1,0 +1,57 @@
+---
+title: "**Toestemmingsverklaring**"
+output: 
+  html_document:
+    toc: false
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+---
+<br>  
+  
+
+
+voor deelname aan het wetenschappelijke onderzoek: 
+  *Sporten en Vriendschappen*
+  
+  
+  
+  Door op *"IK GA AKKOORD"* te klikken:
+  
+  
+  **Bevestig je dat ...**
+  
+- je schriftelijk naar tevredenheid over het onderzoek geïnformeerd bent;
+
+- je de schriftelijke informatie goed hebt gelezen;
+
+- je in de gelegenheid bent gesteld om vragen over het onderzoek te stellen;
+
+- je eventuele vragen naar tevredenheid zijn beantwoord;
+
+- je goed over deelname aan het onderzoek hebt kunnen nadenken;
+
+- je uit vrije wil deelneemt aan het onderzoek.
+
+**Begrijp je dat ...**
+  
+  - je het recht heb om je toestemming op ieder moment weer in te trekken zonder opgave van redenen en zonder dat dit nadelige gevolgen heeft, door contact op te nemen met Rob Franken via rob.franken@ru.nl;
+
+- je het recht hebt op vernietiging van jouw onderzoeksgegevens, totdat een geanonimiseerde versie van de gegevens openbaar is gemaakt;
+
+- je het recht heb om je toestemming voor het gebruik van persoonsgegevens, welke uitsluitend voor administratieve doelen worden gebruikt, in te trekken; je persoonsgegevens worden verwerkt volgens de geldende Europese privacyregelgeving;
+
+- je persoonsgegevens worden verwerkt volgens de [privacyverklaring](https://www.ru.nl/vaste-onderdelen/privacyverklaring-radboud-universiteit) van de Radboud Universiteit ;
+
+**Stem je in dat ...**
+  
+  - je persoonsgegevens (voor- en achternaam, e-mailadres) uitsluitend worden verkregen voor administratieve doelen. Administratieve doelen houden in: je uitnodigen voor vragenlijst tijdens dit onderzoek, je onderzoeksgegevens koppelen aan de informatie die over jou verzameld is door het RSC;
+
+- je onderzoeksgegevens binnen dit onderzoek worden verkregen voor wetenschappelijke doelen en dat er een geanonimiseerde versie van deze gegevens openbaar zal worden gemaakt.
+
+
+**Geef je toestemming ...**
+  
+  - voor het verwerken van de over jou verzamelede informatie door het Radboud Sportcentrum (RSC), over het aantal fitnessbezoeken, ticketuren, en cursussen.
+

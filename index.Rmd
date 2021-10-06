@@ -81,7 +81,7 @@ https://www.w3schools.com/csS/css3_buttons.asp
 </style>
 
 
-<a href="https://cdn.history.com/sites/2/2018/04/AP_9510230460-E.jpeg" class="button button2">Start de vragenlijst</a>
+<a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/755991?lang=nl" class="button button2">Start de vragenlijst</a>
 
 
 
@@ -111,7 +111,5 @@ Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk stu
 
 <p> Bekijk het <b>[informatieformulier](https://robfranken.github.io/RSC/consent.html)</b> voor meer informatie over het onderzoek, alsmede de voorwaarden.
 
-
-Benieuwd naar de uiteindelijke resultaten? Na afloop van het onderzoek delen we de resultaten op [deze website](https://robfranken.github.io/RSC/results.html).
 
 
