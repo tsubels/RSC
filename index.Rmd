@@ -43,9 +43,14 @@ Een actieve leefstijl heeft veel voordelen. Helaas zien we dat de overgang naar 
 
 <br>
 
-*Neem je deel aan ons onderzoek?* 
+*Ben jij eerstejaars aan de RU of HAN?*
 
-Ben jij dit jaar begonnen aan de Radboud Universiteit of de HAN? Graag leggen we je een aantal online vragenlijsten voor.
+*Zo ja, neem je deel aan ons onderzoek?* 
+
+<br> 
+
+
+Graag leggen we je een aantal online vragenlijsten voor.
 
 
 Klik de knop hieronder om deel te nemen:
@@ -96,7 +101,6 @@ https://www.w3schools.com/csS/css3_buttons.asp
 
 </div>
 
-
 ## Beloning 
 
 Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk studenten meedoen. Om deelnemers te bedanken verloten we:
@@ -110,7 +114,7 @@ Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk stu
 
 ## Meer info
 
-<p> Bekijk het <a href="https://robfranken.github.io/RSC/consent.html" target="_blank"><b>informatieformulier</b>)</a> voor meer informatie over het onderzoek.
+<p> Bekijk het <a href="https://robfranken.github.io/RSC/consent.html" target="_blank"><b>informatieformulier</b></a> voor meer informatie over het onderzoek.
 
 
 
