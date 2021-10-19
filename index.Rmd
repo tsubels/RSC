@@ -81,9 +81,11 @@ https://www.w3schools.com/csS/css3_buttons.asp
 
 <a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/938243?lang=nl" target="_blank" class="button button2">Start de vragenlijst</a>
 
+
+
 <br>
 
-**Let op!** de vragenlijst moet worden ingevuld via de computer/laptop, niet via je smartphone of tablet.
+**Let op!** De vragenlijst moet worden ingevuld via de computer/laptop, niet via je smartphone of tablet.
 
 
 <br>
