@@ -1,5 +1,5 @@
 ---
-title: "**Sporten en vriendschappen**"
+title: "**Altijd Blijven Sporten!**"
 output: 
   html_document:
     toc:  false
@@ -12,48 +12,40 @@ output:
 <div class="row" style="padding-top: 40px;">
 <div class="col-sm-6">
 
-### Radboud Universiteit, Nijmegen
+![](images/logo-radboud.jpg)
 
-----
   
-Beste student,
-
 <br>
-
-Leuk dat je je hebt ingeschreven bij het Radboud Sportcentrum! Graag vragen we je aandacht voor een onderzoek naar actieve leefstijlen tijdens de overgang naar de universiteit. Dit onderzoek wordt uitgevoerd door de Radboud Universiteit in samenwerking met het Radboud Sportcentrum (RSC). Het onderzoek is onderdeel van het grote onderzoeksproject *TRansition Into Active Living* <a href="https://www.ru.nl/activeliving/onderzoek/vm-onderzoek/trial/" target="_blank">(TRIAL)</a>.
-
-<br>
-
 
 ## Achtergrond
 
-Een actieve leefstijl heeft veel voordelen. Helaas zien we dat de overgang naar het hoger onderwijs vaak een (blijvend) negatieve invloed heeft op fysieke activiteit. De transitie naar het hoger onderwijs gaat gepaard met een nieuwe studieomgeving, vaak een nieuwe woonomgeving, nieuwe verantwoordelijkheden, en een veranderend sociaal netwerk. Met dit onderzoek willen we onze kennis vergroten over hoe en waarom deze veranderingen gepaard gaan met veranderingen in actieve leefstijlen. Deze nieuwe kennis helpt het RSC en andere organisaties om interventies of programma’s te ontwikkelen waarmee een actieve leefstijl na de transitie naar het hoger onderwijs kan worden gepromoot.     
+Een actieve leefstijl heeft veel voordelen. Helaas zien we dat de overgang naar het hoger onderwijs vaak een (blijvend) negatieve invloed heeft op fysieke activiteit. De transitie naar het hoger onderwijs gaat gepaard met een nieuwe studieomgeving, vaak een nieuwe woonomgeving, nieuwe verantwoordelijkheden, en een veranderend sociaal netwerk.
+
+Met het onderzoeksproject *Altijd Blijven Sporten!* (ABS) willen we onze kennis vergroten over hoe en waarom deze veranderingen gepaard gaan met veranderingen in actieve leefstijlen. Deze nieuwe kennis helpt het sportcentrum en andere organisaties om interventies of programma’s te ontwikkelen waarmee een actieve leefstijl na de transitie naar het hoger onderwijs kan worden gepromoot.     
+
+<br>
+
+## Meer info
+
+Bekijk het <a href="https://robfranken.github.io/RSC/consent.html" target="_blank"><b>informatieformulier</b></a> voor meer informatie over het onderzoek.
+
   
-----
 
 </div>
 <div class="col-sm-6">
 
-![](images/active.jpg)
 
 
-<br>
-
-### **En jij kunt daar aan bijdragen!** 
 
 <br>
 
-*Ben jij eerstejaars aan de RU of HAN?*
+<br>
 
-*Zo ja, neem je deel aan ons onderzoek?* 
+<br>
 
-<br> 
+## **En jij kunt daar aan bijdragen!** 
 
-
-Graag leggen we je een aantal online vragenlijsten voor.
-
-
-Klik de knop hieronder om deel te nemen:
+Graag leggen we je een online vragenlijst voor. Klik de knop hieronder om deel te nemen. Gebruik de deelnemerscode uit de mail.
 
 <!---we should move this to a css file and include it
 
@@ -85,37 +77,25 @@ https://www.w3schools.com/csS/css3_buttons.asp
 }
 </style>
 
+<br>
 
 <a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/755991?lang=nl" target="_blank" class="button button2">Start de vragenlijst</a>
+
+<br>
 
 **Let op!** de vragenlijst moet worden ingevuld via de computer/laptop, niet via je smartphone of tablet.
 
 
 <br>
 
-<br>
 
-<br>
-
-<br>
-
-
-</div>
 
 ## Beloning 
 
-Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk studenten meedoen. Om deelnemers te bedanken verloten we:
-
-#### - <font size ="4" color="red"> **1x een iPad Pro (t.w.v. 899 euro)** </font>
-
-#### - <font size ="4" color="red"> **25x een jaarabonnement bij het Radboud Sportcentrum (t.w.v. 123 euro)** </font>
-
-<br>
+Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk studenten meedoen. Om deelnemers te bedanken verloten we **25x een jaarabonnement bij het RSC (t.w.v. 123 euro)**.
 
 
-## Meer info
 
-<p> Bekijk het <a href="https://robfranken.github.io/RSC/consent.html" target="_blank"><b>informatieformulier</b></a> voor meer informatie over het onderzoek.
 
 
 
