@@ -21,13 +21,13 @@ output:
 
 Een actieve leefstijl heeft veel voordelen. Helaas zien we dat de overgang naar het hoger onderwijs vaak een (blijvend) negatieve invloed heeft op fysieke activiteit. De transitie naar het hoger onderwijs gaat gepaard met een nieuwe studieomgeving, vaak een nieuwe woonomgeving, nieuwe verantwoordelijkheden, en een veranderend sociaal netwerk.
 
-Met het onderzoeksproject *Altijd Blijven Sporten!* (ABS) willen we onze kennis vergroten over hoe en waarom deze veranderingen gepaard gaan met veranderingen in actieve leefstijlen. Deze nieuwe kennis helpt het sportcentrum en andere organisaties om interventies of programma’s te ontwikkelen waarmee een actieve leefstijl na de transitie naar het hoger onderwijs kan worden gepromoot.     
+Met het onderzoeksproject *Altijd Blijven Sporten!* (ABS 2.0) willen we onze kennis vergroten over hoe en waarom deze veranderingen gepaard gaan met veranderingen in actieve leefstijlen. Deze nieuwe kennis helpt het sportcentrum en andere organisaties om interventies of programma’s te ontwikkelen waarmee een actieve leefstijl na de transitie naar het hoger onderwijs kan worden gepromoot.     
 
 <br>
 
 ## Meer info
 
-Bekijk het <a href="https://robfranken.github.io/RSC/consent.html" target="_blank"><b>informatieformulier</b></a> voor meer informatie over het onderzoek.
+Bekijk het <a href="https://altijdblijvensporten.netlify.app/consent.html" target="_blank"><b>informatieformulier</b></a> voor meer informatie over het onderzoek.
 
   
 
@@ -79,7 +79,7 @@ https://www.w3schools.com/csS/css3_buttons.asp
 
 <br>
 
-<a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/938243?lang=nl" target="_blank" class="button button2">Start de vragenlijst</a>
+<a href="https://limesurvey.jtolsma.nl/limesurvey/limesurvey/index.php/938243?newtest=Y&lang=nl" target="_blank" class="button button2">Start de vragenlijst</a>
 
 
 
