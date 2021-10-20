@@ -45,7 +45,7 @@ Bekijk het <a href="https://altijdblijvensporten.netlify.app/consent.html" targe
 
 ## **En jij kunt daar aan bijdragen!** 
 
-Graag leggen we je een online vragenlijst voor. Klik de knop hieronder om deel te nemen. Gebruik de deelnemerscode uit de mail.
+Graag leggen we je een online vragenlijst voor. Klik de knop hieronder om deel te nemen. Gebruik de toegangscode uit de mail.
 
 <!---we should move this to a css file and include it
 
