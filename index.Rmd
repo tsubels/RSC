@@ -45,7 +45,7 @@ Bekijk het <a href="https://altijdblijvensporten.netlify.app/consent.html" targe
 
 ## **En jij kunt daar aan bijdragen!** 
 
-Graag leggen we je een online vragenlijst voor. Klik de knop hieronder om deel te nemen. Gebruik de toegangscode uit de mail.
+Ben jij eerstejaarsstudent? Graag leggen we je een online vragenlijst voor. Klik de knop hieronder om deel te nemen. Gebruik de toegangscode uit de mail.
 
 <!---we should move this to a css file and include it
 
@@ -94,7 +94,7 @@ https://www.w3schools.com/csS/css3_buttons.asp
 
 ## Beloning 
 
-Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk studenten meedoen. Om deelnemers te bedanken verloten we **25x een jaarabonnement bij het RSC (t.w.v. 123 euro)**.
+Deelname is volledig vrijwillig, maar het is van belang dat zo veel mogelijk eerstejaarsstudenten meedoen. Om deelnemers te bedanken verloten we **25x een jaarabonnement bij het RSC (t.w.v. 123 euro)**.
 
 
 
