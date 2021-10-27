@@ -85,7 +85,7 @@ https://www.w3schools.com/csS/css3_buttons.asp
 
 <br>
 
-**Let op!** De vragenlijst moet worden ingevuld via de computer/laptop, niet via je smartphone of tablet.
+**Let op!** De vragenlijst moet worden ingevuld via de computer of laptop. De vragenlijst is niet geschikt voor een smartphone of tablet.
 
 
 <br>
