@@ -45,7 +45,7 @@ Bekijk het <a href="https://altijdblijvensporten.netlify.app/consent.html" targe
 
 ## **En jij kunt daar aan bijdragen!** 
 
-Ben jij eerstejaarsstudent? Graag leggen we je een online vragenlijst voor. Klik de knop hieronder om deel te nemen. Gebruik de toegangscode uit de mail.
+Ben jij eerstejaarsstudent? Graag leggen we je een online vragenlijst voor. Klik de knop hieronder om deel te nemen. We hebben je een uitnodigingsmail gestuurd met daarin een toegangscode.
 
 <!---we should move this to a css file and include it
 
@@ -87,6 +87,9 @@ https://www.w3schools.com/csS/css3_buttons.asp
 
 **Let op!** De vragenlijst moet worden ingevuld via de computer of laptop. De vragenlijst is niet geschikt voor een smartphone of tablet.
 
+<br>
+
+Heb je geen uitnodigingsmail ontvangen, maar wil je toch bijdragen aan ons onderzoek? Neem dan contact op met ons via rob.franken@ru.nl. Dan sturen we je een uitnodiging met toegangscode.
 
 <br>
 
