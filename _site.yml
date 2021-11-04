@@ -1,6 +1,6 @@
-name: "RSC"
+name: "Altijd Blijven Sporten!"
 navbar:
-  title: "RSC"
+  title: "Altijd Blijven Sporten!"
   left:
     - text: "Uitnodiging"
       href: index.html
