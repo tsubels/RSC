@@ -7,9 +7,9 @@ navbar:
     - text: "Informatie"
       menu:
       - text: "Informatiebrief"
-      - href: consent.html
+        href: consent.html
       - text: "Toestemmingsformulier"
-      - href: form.html
+        href: form.html
 output_dir: "docs"
 
 
