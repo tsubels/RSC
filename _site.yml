@@ -1,6 +1,6 @@
-name: "Altijd Blijven Sporten!"
+name: "ABS"
 navbar:
-  title: "Altijd Blijven Sporten!"
+  title: "ABS"
   left:
     - text: "Uitnodiging"
       href: index.html
